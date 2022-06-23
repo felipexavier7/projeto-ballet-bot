@@ -1,0 +1,23 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho__imagem {
+    height: 72px;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho__menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
